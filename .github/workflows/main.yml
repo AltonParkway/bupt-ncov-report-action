@@ -34,8 +34,8 @@ jobs:
         run: |
           pnpm start
         env:
-          BUPT_USERNAME: ${{ secrets.BUPT_USERNAME }}
-          BUPT_PASSWORD: ${{ secrets.BUPT_PASSWORD }}
+          BUPT_USERNAME: 2020140765
+          BUPT_PASSWORD: 03194819
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           NTBA_FIX_319: 1
